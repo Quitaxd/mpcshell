@@ -1,0 +1,38 @@
+export PATH=""
+
+### MPC Shell Config File ###
+#################### Settings
+
+# Set Variables
+export PS1="(mpc shell) "
+root=/data/data/com.termux/files
+mpc=$root/usr/bin/mpc
+add="$mpc add"
+current="$mpc current"
+next="$mpc next"
+prev="$mpc prev"
+del="$mpc del"
+cqueue="$mpc clear"
+snext="$mpc queue"
+loop="$mpc repeat"
+sin="$mpc single"
+play="$mpc play"
+stop="$mpc stop"
+
+# =================
+
+# Set Aliases
+alias add="$add"
+alias now="$current"
+alias current="$current"
+alias next="$next"
+alias prev="$prev"
+alias del="$del"
+alias clear_queue="$cqueue"
+alias next_song="$snext"
+alias repeat="$mpc "
+alias single="$sin"
+alias play="$play"
+alias start="$play"
+alias run="$play"
+alias stop="$stop"
